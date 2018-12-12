@@ -19,6 +19,7 @@
   <body>
     <div id="app">
       <h1 v-bind:title="title">{{ message }}</h1>
+      <input type="text" v-model="message">
       <img :src="url" :alt="title" :title="title" /> 
       <!-- <h1 v-else>You have NOT viewed this page</h1> -->
     </div>
