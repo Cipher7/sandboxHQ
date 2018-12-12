@@ -1,0 +1,1 @@
+simple JS app using JQuery
