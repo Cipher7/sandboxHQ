@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableBell": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "terminal.external.windowsExec": "/usr/local/bin/node",
+    "terminal.explorerKind": "external"
+}
