@@ -18,8 +18,10 @@
 
   <body>
     <div id="app">
+      <h1>Count: {{count}}</h1>
       <h1 v-bind:title="title">{{ message }}</h1>
       <input type="text" v-model="message">
+      <button v-on:click="countUp" class="btn btn-primary">Press Me!</button>
       <img :src="url" :alt="title" :title="title" /> 
       <!-- <h1 v-else>You have NOT viewed this page</h1> -->
     </div>
@@ -32,11 +34,17 @@
       el: '#app',
       data: {
         message: 'Hello Gil',
+        count:0,
         intro: "Welcome to the Tutorial <small>It is all about Vue.js</small>",
         viewed: false,
         viewed2: true,
         title: "Boo Ya!" + new Date(),
-        url: "http://vuejs.org/images/logo.png"
+        url: "http://vuejs.org/images/logo.png",
+      },
+      methods: {
+        countUp: function(){
+          this.count += 1
+        }
       }
     })
   </script>
