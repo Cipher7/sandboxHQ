@@ -189,3 +189,11 @@ a.article:hover {
     top: 0;
     right: 0;
 }
+
+#main {
+    text-align: left;
+    background: rgb(1, 31, 41);
+    -webkit-flex: 1 1;
+    flex: 1 1;
+    height: 100vh;
+  }
