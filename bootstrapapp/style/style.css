@@ -3,6 +3,14 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
@@ -16,6 +24,9 @@ p {
     color: #999;
 }
 
+button{
+    background: #ed1c24;
+}
 a,
 a:hover,
 a:focus {
@@ -26,7 +37,7 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
+    background-color: #ed1c24;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
@@ -191,9 +202,20 @@ a.article:hover {
 }
 
 #main {
+    position: relative;
     text-align: left;
     background: rgb(1, 31, 41);
     -webkit-flex: 1 1;
     flex: 1 1;
-    height: 100vh;
+    height: 70vh;
+  }
+
+ #header1 {
+      text-align: center;
+      color: #f9f9f9;
+  }
+  footer.main-footer{
+      background: #0e0e0e;
+      padding: 0, 0;
+      color: #fff;
   }
