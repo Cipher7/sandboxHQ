@@ -13,40 +13,32 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      <nav class="navbar navbar-inverse">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Bootstrap CheatSheet</a>
-          </div>
-  
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">BootStrap Cheat stylesheet</a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="false">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    </nav>
   
       <!-- JUMBOTRON -->
       <div class="jumbotron text-center">
@@ -284,19 +276,19 @@
   
       <div class="container">
         <!-- PANELS -->
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+        <div class="card text-white bg-primary mb-3"  style="width: auto;">
+          <div class="card-header">
+            <h3 class="card-title">Panel title</h3>
           </div>
-          <div class="panel-body">
+          <div class="card-body">
             Panel content
           </div>
-          <div class="panel-footer">Panel Footer</div>
+          <div class="card-footer">Panel Footer</div>
         </div>
   
         <hr>
   
-        <!-- WELLS -->
+        <!-- WELLS were dropped from BootStrap Libary, so did panels, look to CARDS-->
         <div class="well"> Hello World</div>
         <div class="well well-lg"> Hello World</div>
         <div class="well well-sm"> Hello World</div>
@@ -316,19 +308,19 @@
   
         <!-- PROGRESS BARS -->
         <div class="progress">
-          <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
-            50%
+          <div class="progress-bar progress-bar-success progress-bar-striped progress-bar-animated" style="width:70%;">
+            70%
           </div>
         </div>
   
         <hr>
         <!-- LABELS -->
         <span class="label label-default">Default</span>
-        <h1>Hello <span class="label label-primary">Primary</span></h1>
-        <span class="label label-success">Success</span>
-        <span class="label label-info">Info</span>
-        <span class="label label-warning">Warning</span>
-        <span class="label label-danger">Danger</span>
+        <h1>Hello <span class="badge badge-primary">Primary</span></h1>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-danger">Danger</span>
   
         <!-- BADGES -->
         <a href="#">Inbox <span class="badge">50</span></a>
@@ -340,9 +332,9 @@
   
       <!-- IMAGES -->
       <div class="container">
-        <img class="thumbnail" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
-        <img class="img-rounded" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150"><br><br>
-        <img class="img-circle" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+        <img class="img-thumbnail" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+        <img class="rounded" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150"><br><br>
+        <img class="rounded-circle" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
       </div>
   
       <hr>
@@ -421,12 +413,21 @@
           </div>
         </div>
       </div>
+
+      <footer class="text-muted bg-dark">
+          <div class="container">
+            <p class="float-right">
+              <a href="#">Back to top</a>
+            </p>
+            <p>Example footer in bootstrap like a boss!</p>
+            <p>New to Bootstrap? <a href="https://getbootstrap.com">Visit the homepage</a> or read our <a href="/docs/4.2/getting-started/introduction/">getting started guide</a>.</p>
+          </div>
+        </footer>
   
-      <div style="height:400px"></div>
+    
   
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
-    </body>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
 </html>
