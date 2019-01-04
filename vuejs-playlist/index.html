@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VueJS Tutorial</title>
+    <link rel="stylesheet" href="./style/styles.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="vue-app">
+        <h1>Data Binding</h1>
+        <h1>{{ greet(' afternoon ') }}</h1>
+        <p>Name: {{name}}</p>
+        <p>Job: {{job}}</p>
+        <p>My Website: </p> <a v-bind:href="website">Cipher 7 Designs</a>
+        
+        <input type="text" v-bind:value="name">
+        <br>
+        <p v-html="websiteTag"></p>
+        <hr>
+        <h1>Events</h1>
+        <button v-on:click.once="add(1)">Add a Year</button>
+        <button v-on:click="subtract(1)">Subtract a Year</button>
+        <button v-on:dblclick="add(5)">Add 5 Years(double click)</button>
+        <button @dblclick="subtract(5)">Subtract 5 Years(double click)</button>
+        <p>May age is {{age}}</p>
+        <hr>
+        
+        <div id="canvas" v-on:mousemove="updateXY">{{x}}, {{y}}</div>
+
+        
+    </div>
+
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>
