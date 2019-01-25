@@ -1,10 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1064.751 478.942">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #e100ff;
-      }
-    </style>
-  </defs>
-  <path id="Path_1" data-name="Path 1" class="cls-1" d="M761.556,976s130.2-182.341,419.123-152.021,424.474-5.351,492.247-174.783,153.381-151.6,153.381-151.6V976Z" transform="translate(-761.556 -497.058)"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1065 479" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Path_1" transform="matrix(1,0,0,1,-761.556,-497.058)">
+        <path d="M761.556,976C761.556,976 891.756,793.659 1180.68,823.979C1469.6,854.299 1605.15,818.628 1672.93,649.196C1740.7,479.764 1826.31,497.596 1826.31,497.596L1826.31,976L761.556,976Z" style="fill:rgb(109,0,25);fill-opacity:0.25;fill-rule:nonzero;"/>
+    </g>
 </svg>

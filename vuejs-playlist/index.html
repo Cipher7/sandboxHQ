@@ -21,14 +21,20 @@
         <p v-html="websiteTag"></p>
         <hr>
         <h1>Events</h1>
-        <button v-on:click.once="add(1)">Add a Year</button>
+        <button v-on:click="add(1)">Add a Year</button>
         <button v-on:click="subtract(1)">Subtract a Year</button>
         <button v-on:dblclick="add(5)">Add 5 Years(double click)</button>
         <button @dblclick="subtract(5)">Subtract 5 Years(double click)</button>
+        <br>
+        <br>
+
+        <a v-on:click="click" href="https://www.thenetninja.co.uk">The Net Ninja.com</a>
         <p>May age is {{age}}</p>
         <hr>
         
         <div id="canvas" v-on:mousemove="updateXY">{{x}}, {{y}}</div>
+
+
 
         
     </div>
