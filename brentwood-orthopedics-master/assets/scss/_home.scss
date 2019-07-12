@@ -2,7 +2,7 @@ html, body{
     height: 100%;
 }
 
-#home{
+#section_one{
 
 background: url("/img/high-tech.jpg")  center center;  
 background-color: #cccccc;
@@ -33,6 +33,14 @@ justify-content: center;
     }
     
 }
+
+}
+
+#section_two{
+    height: 500px;
+    align-content: center;
+    font-size: 36px;
+    text-transform: uppercase;
 
 }
                             // img{
