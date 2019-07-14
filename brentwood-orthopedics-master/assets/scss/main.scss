@@ -16,9 +16,10 @@ h1,h2,h3,h4,h5,h6,p{
 html, body{
   background: #EDEDED;
   height: 100%;
-  overflow: hidden;
+  // overflow: scroll;
 }
 a{
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
+

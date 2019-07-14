@@ -1,6 +1,11 @@
-html, body{
-    height: 100%;
-}
+// html, body{
+//     height: 100%;
+// }
+
+// .main-content{
+//     overflow: scroll;
+    
+// }
 
 #section_one{
 
@@ -39,11 +44,36 @@ justify-content: center;
 #section_two{
     height: 500px;
     align-content: center;
+    font-size: 22px;
+    text-transform: uppercase; 
+    background-color: rgb(16, 143, 58);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}  
+  table, th, td,tr{
+    // border-color: 5px white;
+    // text-align: center;
+    padding: 15px;
+}
+
+#section_three{
+    height: 500px;
+    align-content: center;
     font-size: 36px;
     text-transform: uppercase;
+    background-color: rgb(68, 68, 110);
+    color: white;
+    text-align: center;
 
 }
-                            // img{
-                            //   height:600px;
-                            //   width: 600px;
-                            // }
+
+// table {
+//     @extend %table;
+//     @extend %table-bordered;
+// }
