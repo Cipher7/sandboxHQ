@@ -74,6 +74,21 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    .schconsolt{
+        width: 400px;
+        background-color:#fff;
+        font-size: 3rem;
+    }
+    .callus{
+        border: 2px;
+        border-color: #000;
+        background-color: orange;
+    }
+    .chat{
+        border: 2px;
+        border-color: #000;
+        background-color: orange;
+    }
 
 }
 
