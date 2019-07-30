@@ -27,7 +27,7 @@ h1 {
   //align-items: stretch;
 }
 
-.box1{
+.box-1{
   background: red;
   grid-column: 1 / 13;
   grid-row: 1 / 2;
@@ -50,67 +50,60 @@ h1 {
  
 }
 
-.box2{
+.box-2{
   grid-column: 10/13;
   background: yellow;
   padding: 20px;
 }
-.box3{
+.box-3{
   grid-column: 1 / 7
   ;
   background: purple;
   padding: 20px;
 }
 
-.box4{
+.box-4{
   background: blue;
   grid-column: 1 / 10;
   grid-row: 2 /3;
   padding: 20px;
 }
 
-.box5{
+.box-5{
   grid-column: 1 / 13;
   background: orange;
   padding: 20px;
 }
 
-.box6{
+.box-6{
   background: grey;
   padding: 20px;
   grid-column: 7/13;
   grid-row: 3/4;
 }
 
-@media screen and (max-width: 600px){
-  
-  .wrapper{   
-    grid-template-rows: auto auto 300px auto;
+@media screen and (max-width: 500px){
+  .wrapper{
+    display: grid;
+    
+    grid-template-rows: auto auto 200px auto;
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 15px;
-  
-  
+  }
   .box-2{
-    grid-column: 1/7;
-    grid-row: 4/5;
-    background-color: purple;
-    color: #fff;
+    grid-column: 1 /13;
   }
   .box-3{
-  grid-column: 1/7;
-   grid-row: 3/4;
- }
- .box-4{
-   grid-column: 1/13;
+    grid-column: 1 /7;
+    grid-row: 3/4;
   }
- .box-5{
-   grid-column: 1/13;
+  .box-4{
+    grid-column: 1 /13;
+  }
+  .box-5{
+    grid-column: 1 /13;
   }
   .box-6{
-    background: #fff;
-   grid-column: 7/13;
-  }
+    grid-column: 7 /13;
   }
 }
-
-
