@@ -82,8 +82,10 @@ h1 {
   grid-row: 3/4;
 }
 
-@media screen and (max-width: 550px){
-  .wrapper{   
+@media screen and (max-width: 500px){
+  .wrapper{
+    display: grid;
+    
     grid-template-rows: auto auto 200px auto;
     grid-auto-rows: minmax(200px, auto);
     grid-gap: 15px;
